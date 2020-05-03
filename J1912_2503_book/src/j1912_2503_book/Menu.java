@@ -1,4 +1,4 @@
-/*
+    /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -120,8 +120,9 @@ public class Menu {
         }
     }
     private void sortProductByPrice(){
-       this.products
-                .sort((item1, item2) 
-                        -> item1.getPrice().compareTo(item2.getPrice())); // loi ep kieu chua xu li duoc
+       this.products.sort((item1, item2) ->{
+                     return item1.getPrice().compareTo(item2.getPrice()); // loi ep kieu chua xu li duoc
+                });
+                      
     } 
 }

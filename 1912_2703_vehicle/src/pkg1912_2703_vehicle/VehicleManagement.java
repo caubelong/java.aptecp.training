@@ -65,7 +65,7 @@ public class VehicleManagement {
             }else if (type== Vehicle.TYPE_MOTO){
                 Motobike newMoto = new Motobike();
                  newMoto.createMoto();
-                 vehicles.add(newMoto);
+                vehicles.add(newMoto);
             }
         }
     }
